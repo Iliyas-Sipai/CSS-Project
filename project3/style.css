@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'lato',sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+.ping1{
+    background-image: url( https://images.pexels.com/photos/7014337/pexels-photo-7014337.jpeg?auto=compress&cs=tinysrgb&w=600);
+    min-height: 100%;
+}
+.ping2 {
+    background-image: url(https://images.pexels.com/photos/19566202/pexels-photo-19566202/free-photo-of-milkyway-photography-taken-in-spiti-valley-himachal-pradesh.jpeg?auto=compress&cs=tinysrgb&w=600);
+    min-height: 400px;
+} 
+.ping3{
+    background-image: url(https://images.pexels.com/photos/3838285/pexels-photo-3838285.jpeg?auto=compress&cs=tinysrgb&w=600);
+    min-height: 100%;
+} 
+.ping1,
+.ping2,
+ .ping3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ptext{
+    position: absolute;
+    top:50% ;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.textbg{
+    background: #313534;
+    color: #fff;
+    padding: 20px;
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+.section-1{
+    background-color: #eef5fc;
+    color: #131111;
+}
+.section-2{
+    background-color: #666;
+    color: #eef5fc;
+}
+.section-3{
+    background-color: #0fba9b;
+    color: #eef5fc;
+}
+.ping4{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://images.pexels.com/photos/7129651/pexels-photo-7129651.jpeg?auto=compress&cs=tinysrgb&w=600);
+    min-height: 100%;
+
+}

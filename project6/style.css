@@ -1,0 +1,205 @@
+@import url(https://fonts.google.com/specimen/Roboto);
+
+:root{
+    --purple500:#281154;
+    --purple300:#270082;
+    --purple600:#1b0058;
+    --red600:#dc0000;
+    --max-width:1200px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    font-family: "Roboto",sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+section{
+    scroll-margin: 50px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+}
+header{
+    background-color: var(--purple300);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 5px 5px 5px rgba(1, 1, 0.8);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding: 20px 0;
+}
+.logo{
+    font-size: 32px;
+    font-weight: 600;
+
+}
+button{
+    padding: 10px 155;
+    border: none;
+    transition: 0.2 ease-in-out;
+}
+button:hover{
+    opacity: 0.8;
+    transition: 0.2 ease-in-out;
+
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+nav ul li{
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in;
+}
+nav ul li:hover{
+    border-bottom:2px solid white ;
+    transition: 0.2s ease-in;
+}
+/* hero section ************************************/
+.hero-section{
+    background-image: url(https://images.pexels.com/photos/2034851/pexels-photo-2034851.jpeg?auto=compress&cs=tinysrgb&w=600);
+    height: 100vh;
+    display: grid;
+    color: white;
+    place-items:center;
+    text-align: center;
+}
+.hero-section,.container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px; 
+}
+.hero-section h1{
+    font-size: 96px;
+}
+.hero-section h3{
+    font-size: 32px;
+}
+.music-section{
+    padding-top:50px ;
+    background: var(--purple500);
+}
+.music-section,.container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.iphone{
+    margin-top: -400px;
+    position: relative;
+    top: 400px;
+
+}
+.btn{
+    background-color: var(--red600);
+    color: white;
+    width: 150px;
+    height: 20px;
+}
+.btn-2{
+    background-color: var(--purple300);
+    color: white;
+    width: 100px;
+    height: 25px;
+}
+
+.about-music{
+    padding-top: 500px;
+    display: grid;
+    place-items: center;
+    gap: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.video-section{
+    background-image: url(https://images.pexels.com/photos/2034851/pexels-photo-2034851.jpeg?auto=compress&cs=tinysrgb&w=600);
+    min-height: 800px;
+    display: grid;
+    place-items: center;
+    color: white;
+    text-align: center;
+}
+.video-section
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 30;
+    margin-top: -200px;
+
+}
+.boximage{
+    /* border: 4px solid red; */
+    height: 60vh;
+    width: 100vh;
+}
+.hero-section,.video-section{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.gift-section{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+    gap: 50px;
+
+}
+.gift-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer1{
+    background-color: var(--purple600);
+    padding: 100px;
+}
+.footer1
+.container{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    color: white;
+    height: 10px;
+    justify-content: space-between;
+}
+.footer1 h4{
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+}
+.footer-lower{
+    background-color: var(--purple300);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 400;
+}
+.gift-sections{
+    scroll-margin: 50px;
+}

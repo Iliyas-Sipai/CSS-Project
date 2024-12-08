@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "jost";
+}
+body{
+    background-color: #080a0c;
+    color: azure;
+    height: 100vh;
+}
+.container{
+    height: 100vh;
+    max-width: 1320px;
+    padding: 64px 0;
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+}
+.grid{
+    display: grid;
+    align-items: center;
+    gap: 64px;
+}
+.grid-two-column{
+    grid-template-columns: repeat(2,1fr);
+}
+.hero-content h1{
+    font-size: 48px;
+    text-align: 48px;
+}
+.hero-content p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 20px 0 40px 0;
+}
+img{
+    max-width: 80%;
+    height: auto;
+
+}
+a{
+    background-color: transparent;
+    display: inline-block;
+    padding: 12px 32px;
+    text-decoration: none;
+    border-radius: 05px;
+    font-size: 24px;
+    font-weight: bold;
+    border: 5px solid #fff;
+    color: #fff;
+    width: 200px;
+    text-align: center;
+    background-color: rgb(15, 208, 124);
+
+    /*transition-property: width,color,background-color;*/
+    /*transition-duration: 1s;
+    transition-timing-function: linear;*/
+    transition: all 1s linear;
+    -webkit-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -ms-transition:all 1s linear;
+    -o-transition: all linear;
+}
+.hero-content a:hover{
+    background-color: blue;
+    color: #fff;
+    width: 400px;
+    box-shadow: rgba(255, 255,  255, 0.8) 0px 19px 38px,
+    rgba(255, 255,  255, 0.8) 0px 15px 12px;
+}
+img:hover{
+    scale: 1.3;
+}

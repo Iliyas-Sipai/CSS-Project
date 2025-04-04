@@ -40,14 +40,14 @@ img{
 
 }
 a{
-    background-color: transparent;
+    background-color: #ffff;
     display: inline-block;
     padding: 12px 32px;
     text-decoration: none;
     border-radius: 05px;
     font-size: 24px;
     font-weight: bold;
-    border: 5px solid #fff;
+    border: 5px solid #ffff;
     color: #fff;
     width: 200px;
     text-align: center;

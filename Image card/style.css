@@ -145,6 +145,9 @@ button:first-child::before{
        left: 0;
        bottom: 0;
     }
+    p{
+        font-family: 'Courier New', Courier, monospace;
+    }
 }
 
 @media (width<= 440px){

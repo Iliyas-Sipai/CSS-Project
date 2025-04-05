@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover or not</title>
+    <style>
+        body{
+            background: #000;
+        }
+        .container{
+            display: flex;
+            gap:1rem;
+            justify-content: center;
+            margin-top: 250px;
+        }
+        .box{
+          width: 8rem;
+          height: 8rem;
+          border-radius: 1rem;
+          cursor: pointer;
+          transition: opacity 0.6s ease; 
+          background-color: red;
+        }
+        .container:hover > :not(:hover){
+             opacity: 0.5;  
+             background-color: #FFF;
+        }
+        @media (min-width:992px) and (max-width:1190px)  {
+            .container{
+                display: grid;
+            }
+        }
+        @media (max-width:767px)  {
+            .container{
+                display: grid;
+                flex-direction: column;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+
+    </div>
+</body>
+</html>

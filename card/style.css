@@ -132,10 +132,10 @@ body{
     margin-right: 0;
     font-size: 1.5rem;
 }
-.card-img{
+.card img{
     margin: -6rem 0 2rem 0;
     width: 100%;
-    max-width: 25rem;
+    max-width: 30rem;
 }
 .card-price{
     top: -4.75rem;
